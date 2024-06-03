@@ -46,7 +46,7 @@ sudo make
 cd ..
 ```
  
-to download the wts file
+to download the wts file, the wts file should be placed in same location as that of yolov8m.cfg file
 
 ```
 gdown --fuzzy https://drive.google.com/file/d/1yNC839YLgpvDBHrPWQZ89EstrH6NwvUS/view?usp=sharing
