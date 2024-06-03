@@ -33,27 +33,32 @@ Here I am attaching the link for infered video,please find the same.
 link:https://drive.google.com/file/d/1RMTT3bI-hohDKelLue_8zYrg4k-6908u/view?usp=drive_link
 
 ## commands
-$ git clone https://github.com/Yashovardhan0317/nextbrain
 
-$ cd nextbrain/nvdsinfer_custom_impl_Yolo
+```
+git clone https://github.com/Yashovardhan0317/nextbrain
 
-$ sudo make clean
+cd nextbrain/nvdsinfer_custom_impl_Yolo
 
-$ sudo make
+sudo make clean
 
-$ cd ..
+sudo make
+
+cd ..
+```
  
 to download the wts file
 
-$ gdown --fuzzy https://drive.google.com/file/d/1yNC839YLgpvDBHrPWQZ89EstrH6NwvUS/view?usp=sharing
+```
+gdown --fuzzy https://drive.google.com/file/d/1yNC839YLgpvDBHrPWQZ89EstrH6NwvUS/view?usp=sharing
+```
 
 to run the code use following command.
 
-$  sudo python3 deepstream_nvdsanalytics.py file: "location of the video "
+```
+sudo python3 deepstream_nvdsanalytics.py file:/path/to/video.mp4
+```
 
-example:
 
-sudo python3 deepstream_nvdsanalytics.py file:/opt/nvidia/deepstream/deepstream-6.2/sources/deepstream_python_apps/apps/nextbrain_assignmnet/task_seg1.mp4
 
 
 
